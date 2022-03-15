@@ -1,42 +1,71 @@
-.colors, .fonts, .txt-styles {
-    border: 2px solid #c0c0c0;
-    padding: 5px;
-    display: block;
-    margin: 10px;
+.container {
+  border: 2px solid #a2a2a6;
+  padding: 10px;
+  margin: 10px auto;
 }
 
-ul {
-    width: 100%;
-    height: 280px;
+.color-container {
+  width: 100%;
 }
 
-li {
-    border: 1px solid #000;
-    list-style: none;
-    display: inline-block;
-    height: 70px;
-    width: 27%;
-    padding: 12px;
-    margin: inherit;
-    text-align: center;
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
 }
 
 .black {
-    background-color: #000;
-    color: #ffffff;
+  background-color: #000;
+  color: #ffffff;
 }
 
-.yellow {
-    background-color: #ffd700;
-    color: #000;
+.gold {
+  background-color: #ffd700;
+  color: #000;
 }
 
 .teal {
-    background-color: #00ced1;
-    color: #000;
+  background-color: #00ced1;
+  color: #000;
 }
 
 .olive {
-    background-color: #6b8e23;
-    color: #000;
+  background-color: #6b8e23;
+  color: #000;
+}
+
+.font-pannel {
+  width: 45%;
+  display: inline-block;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.abril-fatface {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
 }

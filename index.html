@@ -4,25 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css" />
     <title>Website Design System</title>
   </head>
   <body>
     <h1>Website Toolkit</h1>
-    <section class="colors">
+    <section class="container">
       <h2>Primary colors</h2>
-      <ul>
-        <li class="black">Black #000</li>
-        <li class="yellow">Gold #ffd700</li>
-        <li class="teal">Teal #00ced1</li>
-        <li class="olive">Olive green #6b8e23</li>
-      </ul>
+      <div class="color-container">
+          <div class="color-panel black">
+              <p class="color-label">Black</p>
+              <p class="color-hex">#000</p>
+          </div>
+          <div class="color-panel gold">
+              <p class="color-label">Gold</p>
+              <p class="color-hex">#ffd700</p>
+          </div>
+          <div class="color-panel teal">
+              <p class="color-label">Teal</p>
+              <p class="color-hex">#00ced1</p>
+          </div>
+          <div class="color-panel olive">
+              <p class="color-label">Olive Green</p>
+              <p class="color-hex">#6b8e23</p>
+          </div>
+      </div>
     </section>
-    <section class="fonts">
+    <section class="container">
       <h2>Fonts</h2>
+      <div class="font-container">
+          <div class="font-pannel">
+              <p class="font-label abril-fatface">Abril Fatface</p>
+              <p class="regular abril-fatface">It is nice and foggy outside!</p>
+              <p class="bold abril-fatface">It is nice and foggy outside!</p>
+              <p class="italic abril-fatface">It is nice and foggy outside!</p>
+          </div>
+          <div class="font-pannel">
+              <p class="font-label merriweather">Merriweather</p>
+              <p class="regular merriweather">It is nice and foggy outside!</p>
+              <p class="bold merriweather">It is nice and foggy outside!</p>
+              <p class="italic merriweather">It is nice and foggy outside!</p>
+          </div>
+          <div class="font-pannel">
+              <p class="font-label work-sans">work-sans</p>
+              <p class="regular work-sans">It is nice and foggy outside!</p>
+              <p class="bold work-sans">It is nice and foggy outside!</p>
+              <p class="italic work-sans">It is nice and foggy outside!</p>
+          </div>
+      </div>
     </section>
-    <section class="txt-styles">
+    <section class="container">
       <h2>Text Styles</h2>
+      <div class="text-pannel">
+      <h1>H1: Main page heading</h1>
+      <ul>
+          <li>Font-weight: 700 &#40bold&#41  </li>
+          <li>Font-size: 26px</li>
+          <li>Font-family: Abril Fatface</li>
+      </ul>
+      </div>
+      <div class="text-pannel">
+      <h2>H2: Subheading</h2>
+      <ul>
+          <li>Font-weight: 500</li>
+          <li>Font-size: 18px</li>
+          <li>Font-family: Merriweather</li>
+      </ul>
+      </div>
+      <div class="text-pannel">
+      <p>p: Paragraph text</p>
+      <ul>
+          <li>Font-wight: 400 &#40regular&#41</li>
+          <li>Font-size: 14px</li>
+          <li>Font-family: work-sans</li>
+      </ul>
+      </div>
     </section>
   </body>
 </html>
